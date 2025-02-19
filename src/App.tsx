@@ -1,7 +1,14 @@
-import Message from "./Message.tsx"
+import Alert from "./components/Alert.tsx";
 
 function App() {
-    return <div><Message/></div>
+    return (
+        <div>
+            <Alert>
+                <p>Hello</p>
+                <p>World</p>
+            </Alert>
+        </div>
+    )
 }
 
 export default App;
