@@ -12,9 +12,14 @@
   },
   "dependencies": {
     "@deno/vite-plugin": "^1.0.3",
+    "@types/pg": "^8.11.11",
     "bootstrap": "^5.3.3",
+    "drizzle-kit": "^0.30.4",
+    "drizzle-orm": "^0.39.3",
     "hono": "^4.7.1",
+    "pg": "^8.13.3",
     "react": "^19.0.0",
+    "react-bootstrap": "^2.10.9",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
